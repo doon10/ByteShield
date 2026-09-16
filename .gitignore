@@ -1,0 +1,42 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Env & secrets (never commit API keys)
+.env
+.env.local
+.env.*.local
+*.pem
+credentials.json
+
+# Logs & local debug output
+*.log
+npm-debug.log*
+backend/_*.txt
+backend/_*.json
+
+# Secrets — never commit
+backend/.env
+
+# Dependencies (if you add Node later)
+node_modules/
+
+# Local analytics / fraud ops stores
+backend/byteshield_incidents.json
+backend/byteshield_soc.db
+backend/fraud_cases.json
+backend/fraud_campaigns.json
+backend/data/case-overrides.json
+
+__pycache__/
+*.pyc
+venv/
+backend/venv/
+
